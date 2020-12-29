@@ -15,20 +15,20 @@ struct NRPosition {
     var y: Double
 }
 
-extension NRPosition {
+fileprivate extension NRPosition {
     // 位置是否在相对于远点的范围内
     func within(range: NRDistance) -> Bool {
         return sqrt(x * x + y * y) <= range
     }
 }
 
-struct NRShip {
+fileprivate struct NRShip {
     var positation: NRPosition
     var firingRange: NRDistance
     var unsafeRange: NRDistance
 }
 
-extension NRShip {
+fileprivate extension NRShip {
     // 只考虑安全范围和射击范围
     func canEngage(ship target: NRShip) -> Bool {
         let dx = target.positation.x - positation.x
@@ -56,7 +56,7 @@ extension NRShip {
     }
 }
 
-extension NRPosition {
+fileprivate extension NRPosition {
     func minus(_ p: NRPosition) -> NRPosition {
         return NRPosition(x: x - p.x, y: y - p.y)
     }
