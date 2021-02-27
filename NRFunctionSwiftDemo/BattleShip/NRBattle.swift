@@ -22,7 +22,7 @@ fileprivate extension NRPosition {
     }
 }
 
-fileprivate struct NRShip {
+struct NRShip {
     var positation: NRPosition
     var firingRange: NRDistance
     var unsafeRange: NRDistance
@@ -56,7 +56,7 @@ fileprivate extension NRShip {
     }
 }
 
-fileprivate extension NRPosition {
+extension NRPosition {
     func minus(_ p: NRPosition) -> NRPosition {
         return NRPosition(x: x - p.x, y: y - p.y)
     }

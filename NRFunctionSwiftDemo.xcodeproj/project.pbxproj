@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5220CE45259B713A0000C5E5 /* NRFunctionBattle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220CE44259B713A0000C5E5 /* NRFunctionBattle.swift */; };
+		52477613259CC2BA00E76F5A /* NRFunctioanBattleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52477612259CC2BA00E76F5A /* NRFunctioanBattleObject.swift */; };
+		525F218025A4B1C300185E9C /* NRCoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F217F25A4B1C300185E9C /* NRCoreImage.swift */; };
+		525F218825A741B400185E9C /* NRCoreImageDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F218725A741B400185E9C /* NRCoreImageDemoViewController.swift */; };
+		525F219925A758F100185E9C /* NRMapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F219825A758F100185E9C /* NRMapDemo.swift */; };
+		525F219E25B1D3FA00185E9C /* NRFilterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F219D25B1D3FA00185E9C /* NRFilterDemo.swift */; };
+		525F21A325B1D50100185E9C /* NRReduceDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F21A225B1D50100185E9C /* NRReduceDemo.swift */; };
+		525F21A825B1DD9D00185E9C /* NRCityDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F21A725B1DD9D00185E9C /* NRCityDemo.swift */; };
+		5291945E25E74BAD0049F156 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5291945D25E74BAD0049F156 /* test.jpg */; };
+		5291946325E74BC10049F156 /* demo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5291946225E74BC10049F156 /* demo.jpg */; };
+		5291946825EA3BE60049F156 /* NROptionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291946725EA3BE60049F156 /* NROptionDemo.swift */; };
 		52EDEFD7259B684E00E299D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDEFD6259B684E00E299D5 /* AppDelegate.swift */; };
 		52EDEFD9259B684E00E299D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDEFD8259B684E00E299D5 /* SceneDelegate.swift */; };
 		52EDEFDB259B684E00E299D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDEFDA259B684E00E299D5 /* ViewController.swift */; };
@@ -38,6 +48,16 @@
 
 /* Begin PBXFileReference section */
 		5220CE44259B713A0000C5E5 /* NRFunctionBattle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRFunctionBattle.swift; sourceTree = "<group>"; };
+		52477612259CC2BA00E76F5A /* NRFunctioanBattleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRFunctioanBattleObject.swift; sourceTree = "<group>"; };
+		525F217F25A4B1C300185E9C /* NRCoreImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCoreImage.swift; sourceTree = "<group>"; };
+		525F218725A741B400185E9C /* NRCoreImageDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCoreImageDemoViewController.swift; sourceTree = "<group>"; };
+		525F219825A758F100185E9C /* NRMapDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRMapDemo.swift; sourceTree = "<group>"; };
+		525F219D25B1D3FA00185E9C /* NRFilterDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRFilterDemo.swift; sourceTree = "<group>"; };
+		525F21A225B1D50100185E9C /* NRReduceDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRReduceDemo.swift; sourceTree = "<group>"; };
+		525F21A725B1DD9D00185E9C /* NRCityDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRCityDemo.swift; sourceTree = "<group>"; };
+		5291945D25E74BAD0049F156 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		5291946225E74BC10049F156 /* demo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo.jpg; sourceTree = "<group>"; };
+		5291946725EA3BE60049F156 /* NROptionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NROptionDemo.swift; sourceTree = "<group>"; };
 		52EDEFD3259B684E00E299D5 /* NRFunctionSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRFunctionSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EDEFD6259B684E00E299D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EDEFD8259B684E00E299D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +100,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		525F217E25A4B11900185E9C /* CoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				525F217F25A4B1C300185E9C /* NRCoreImage.swift */,
+				525F218725A741B400185E9C /* NRCoreImageDemoViewController.swift */,
+			);
+			path = CoreImage;
+			sourceTree = "<group>";
+		};
+		525F218C25A7479000185E9C /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				5291946225E74BC10049F156 /* demo.jpg */,
+				5291945D25E74BAD0049F156 /* test.jpg */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		525F219725A7585000185E9C /* MapFilterReduce */ = {
+			isa = PBXGroup;
+			children = (
+				525F219825A758F100185E9C /* NRMapDemo.swift */,
+				525F219D25B1D3FA00185E9C /* NRFilterDemo.swift */,
+				525F21A225B1D50100185E9C /* NRReduceDemo.swift */,
+				525F21A725B1DD9D00185E9C /* NRCityDemo.swift */,
+				5291946725EA3BE60049F156 /* NROptionDemo.swift */,
+			);
+			path = MapFilterReduce;
+			sourceTree = "<group>";
+		};
 		52EDEFCA259B684E00E299D5 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +153,9 @@
 		52EDEFD5259B684E00E299D5 /* NRFunctionSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				525F219725A7585000185E9C /* MapFilterReduce */,
+				525F218C25A7479000185E9C /* Asset */,
+				525F217E25A4B11900185E9C /* CoreImage */,
 				52EDF00C259B6A1200E299D5 /* BattleShip */,
 				52EDEFD6259B684E00E299D5 /* AppDelegate.swift */,
 				52EDEFD8259B684E00E299D5 /* SceneDelegate.swift */,
@@ -138,6 +191,7 @@
 			children = (
 				52EDF00D259B6A3C00E299D5 /* NRBattle.swift */,
 				5220CE44259B713A0000C5E5 /* NRFunctionBattle.swift */,
+				52477612259CC2BA00E76F5A /* NRFunctioanBattleObject.swift */,
 			);
 			path = BattleShip;
 			sourceTree = "<group>";
@@ -245,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5291945E25E74BAD0049F156 /* test.jpg in Resources */,
+				5291946325E74BC10049F156 /* demo.jpg in Resources */,
 				52EDEFE3259B685000E299D5 /* LaunchScreen.storyboard in Resources */,
 				52EDEFE0259B685000E299D5 /* Assets.xcassets in Resources */,
 				52EDEFDE259B684E00E299D5 /* Main.storyboard in Resources */,
@@ -272,11 +328,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525F219E25B1D3FA00185E9C /* NRFilterDemo.swift in Sources */,
+				525F21A825B1DD9D00185E9C /* NRCityDemo.swift in Sources */,
+				52477613259CC2BA00E76F5A /* NRFunctioanBattleObject.swift in Sources */,
+				525F219925A758F100185E9C /* NRMapDemo.swift in Sources */,
+				525F218025A4B1C300185E9C /* NRCoreImage.swift in Sources */,
 				52EDEFDB259B684E00E299D5 /* ViewController.swift in Sources */,
 				52EDF00E259B6A3C00E299D5 /* NRBattle.swift in Sources */,
+				5291946825EA3BE60049F156 /* NROptionDemo.swift in Sources */,
 				52EDEFD7259B684E00E299D5 /* AppDelegate.swift in Sources */,
 				52EDEFD9259B684E00E299D5 /* SceneDelegate.swift in Sources */,
+				525F218825A741B400185E9C /* NRCoreImageDemoViewController.swift in Sources */,
 				5220CE45259B713A0000C5E5 /* NRFunctionBattle.swift in Sources */,
+				525F21A325B1D50100185E9C /* NRReduceDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
